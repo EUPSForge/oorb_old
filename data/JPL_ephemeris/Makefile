@@ -32,7 +32,7 @@ include ../../Makefile.include
 # TYPE OF EPHEMERIS [405|406]
 EPH_TYPE = 405
 # FTP client
-FTP_CLIENT = ncftpget
+FTP_CLIENT = wget
 # Output name of the program: 
 EPH_BIN = de$(EPH_TYPE).dat
 # Name of ascii-to-binary converter program source file:
